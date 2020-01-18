@@ -1,0 +1,11 @@
+﻿Complete the Go command.  User will type "go north".  If the door exists, then change the current room.
+
+Add a "look" command.  "look room" will give the rooms description.  "look 'item'" will give the items description.  The item might be in the room, or the adventurer may have it.
+
+Add a "get" command.  This take an item from the room and put it on the adventurer.
+
+Add a "drop" command.  This will remove an item from the adventurer and put it in the room.
+
+Add a "help" command.  This will list all the actions that can be used.
+
+Add a "use" command.  User will type "use 'item'".  Add code to handle different uses of items.

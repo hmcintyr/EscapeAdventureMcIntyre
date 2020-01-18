@@ -1,0 +1,48 @@
+{
+  "Rooms": {
+    "blue room": {
+      "Description": "This room has blue walls.",
+      "Items": {
+
+      },
+      "Doors": {
+        "north": {
+          "NextRoom": "yellow room"
+        }
+      }
+    },
+    "yellow room": {
+      "Description": "This room has yellow walls.",
+      "Items": {
+        "cake": {
+          "Description": "The cake says Happy Birthday on it."
+        },
+
+        "hat": {
+          "Description": "The hat is purple."
+        }
+      },
+      "Doors": {
+        "east": {
+          "NextRoom": "red room"
+        },
+        "south": {
+          "NextRoom": "blue room"
+        }
+      }
+    },
+    "red room": {
+      "Description": "This room has red walls.",
+      "Items": {
+        "candles": {
+          "Description": "The candles are multiple colors and small."
+        }
+      },
+      "Doors": {
+        "west": {
+          "NextRoom": "yellow room"
+        }
+      }
+    }
+  }
+}
