@@ -5,6 +5,7 @@ Add a "look" command.  "look room" will give the rooms description.  "look 'item
 Add a "get" command.  This take an item from the room and put it on the adventurer.
 
 Add a "drop" command.  This will remove an item from the adventurer and put it in the room.
+add a inventory command
 
 Add a "help" command.  This will list all the actions that can be used.
 

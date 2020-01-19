@@ -22,6 +22,7 @@ namespace EscapeAdventure
     public class Item
     {
         public string Description { get; set; }
+        public string Name { get; set; }
 
     }
 
@@ -33,5 +34,10 @@ namespace EscapeAdventure
     public class Adventurer
     {
         public Dictionary<string, Item> Items { get; set; }
+
+        public Adventurer()
+        {
+            Items = new Dictionary<string, Item>();
+        }
     }
 }

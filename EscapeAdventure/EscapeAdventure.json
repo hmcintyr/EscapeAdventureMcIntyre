@@ -15,11 +15,13 @@
       "Description": "This room has yellow walls.",
       "Items": {
         "cake": {
-          "Description": "The cake says Happy Birthday on it."
+          "Description": "The cake says Happy Birthday on it.",
+          "Name":  "cake"
         },
 
         "hat": {
-          "Description": "The hat is purple."
+          "Description": "The hat is purple.",
+          "Name": "hat"
         }
       },
       "Doors": {
@@ -35,7 +37,8 @@
       "Description": "This room has red walls.",
       "Items": {
         "candles": {
-          "Description": "The candles are multiple colors and small."
+          "Description": "The candles are multiple colors and small.",
+          "Name": "candles"
         }
       },
       "Doors": {
